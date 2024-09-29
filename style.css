@@ -1,0 +1,88 @@
+.topbar.container{
+    background-color:#81C408;
+    margin-top: -10px;
+    border-radius: 40px 15px 40px 15px;
+    color: white;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/tm.jpg');
+    height: 300px;
+    padding-top: 128px;
+ 
+}
+#sec .sec{
+    position: relative;
+    top: 50px;
+    
+}
+.breadcrumb a{
+    color: #81C408;
+}
+ #bac {
+   padding-bottom: 210px;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('./images/h1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    width: 100%; 
+}
+
+.carousel-item a {
+    margin-bottom: 40%;
+  
+}
+
+.mar{
+   margin-top: 150px;
+    margin-bottom: 150px;
+}
+ul li a:hover{
+background-color:  #ffc107;
+color: white;
+}
+.card-css{
+margin-top: 75px;
+border-radius: 10px 10px  ;
+overflow: hidden;
+
+}
+.zoom{
+    position: relative;
+    overflow: hidden;
+}
+.card-css img {
+    width: 100%;
+    height: 230px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px 10px  ;
+   
+}
+.card-css img:hover{
+    transform: scale(1.2);
+}
+.card-body button {
+    color: #81C408;
+}
+.card-body button:hover {
+    color: white;
+}
+.cbtn{
+
+  height: 40px;
+  color: #81C408;
+  width: 120px;
+
+}
+.cbtn:hover{
+    color: white;
+}
+.card-css:hover{
+    box-shadow: 5px 5px 100px  grey ;
+}
